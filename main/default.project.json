@@ -1,0 +1,9 @@
+{
+	"name": "ProfileService",
+	"globIgnorePaths": [
+		"*.spec.lua"
+	],
+	"tree": {
+		"$path": "src"
+	}
+}

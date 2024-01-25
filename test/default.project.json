@@ -1,0 +1,53 @@
+{
+	"name": "MechaMagic",
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"common": {
+				"$className": "Folder",
+				"packages": {
+					"$className": "Folder",
+					"$path": "src/packages/common"
+				},
+				"source": {
+					"$className": "Folder",
+					"$path": "src/source/common"
+				}
+			},
+			"client": {
+				"$className": "Folder",
+				"packages": {
+					"$className": "Folder",
+					"$path": "src/packages/client"
+				},
+				"source": {
+					"$className": "Folder",
+					"$path": "src/source/client"
+				}
+			}
+		},
+
+		"ServerStorage": {
+			"server": {
+				"$className": "Folder",
+				"packages": {
+					"$className": "Folder",
+					"$path": "src/packages/server"
+				},
+				"source": {
+					"$className": "Folder",
+					"$path": "src/source/server"
+				}
+			}
+		},
+	
+		"ReplicatedFirst": {
+			"$path": "src/run/client"
+		},
+
+		"ServerScriptService": {
+			"$path": "src/run/server"
+		}
+	}
+}
